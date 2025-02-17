@@ -118,9 +118,9 @@ import fetch from 'node-fetch';
 //
 
 
-const p1=fetch('https://yahoo.com')
-const p2= fetch('https://goo44gle.com')
-const p3= fetch('https://bing.com')
+// const p1=fetch('https://yahoo.com')
+// const p2= fetch('https://goo44gle.com')
+// const p3= fetch('https://bing.com')
 
 // const bigPromise = Promise.all([p1,p2,p3]) //пройдет, если все прошли
 //
@@ -149,11 +149,11 @@ const p3= fetch('https://bing.com')
 // })
 
 
-
-const bigPromise = Promise.allSettled([p1,p2,p3]) // пройдет, если прошел хоть 1
-
-bigPromise.then((data)=>{
-    console.log('succsess AllSettled', data)
-}).catch((err)=>{
-    console.log('Erorr', err)
-})
+//
+// const bigPromise = Promise.allSettled([p1,p2,p3]) // пройдет, если прошел хоть 1
+//
+// bigPromise.then((data)=>{
+//     console.log('succsess AllSettled', data)
+// }).catch((err)=>{
+//     console.log('Erorr', err)
+// })
