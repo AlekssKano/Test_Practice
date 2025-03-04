@@ -7,9 +7,9 @@ export const usesrsObj={
 }
 var user ={id:100500, name: 'Igor'}
 
-users[user.id]=user;
-delete users[user.id]
-users[user.id].name='Tonya'
+// users[user.id]=user;
+// delete users[user.id]
+// users[user.id].name='Tonya'
 
 export const usesrs2=[
     {id:101, name:'Alya'},

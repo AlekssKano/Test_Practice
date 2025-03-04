@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {User} from "./06 callback lesson/06-callbacks";
+import {Action_09} from "./js lessons/Action_09";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <User />
+      <small id="small">Hola</small>
+
   </React.StrictMode>
 );
 
